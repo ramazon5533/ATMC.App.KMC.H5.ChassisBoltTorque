@@ -43,42 +43,9 @@ Screenshots and short demo videos can be added later without exposing source cod
 
 ### Screenshots
 
-Place screenshots in:
-
-```text
-media/screenshots/
-```
-
-Recommended file names:
-
-```text
-media/screenshots/main-dashboard.png
-media/screenshots/result-screen.png
-media/screenshots/settings-screen.png
-```
-
-After adding screenshots, you can display them in this README like this:
-
-```md
-![Main dashboard](media/screenshots/main-dashboard.png)
-```
 
 ### Demo Videos
 
-Place short screen recordings in:
-
-```text
-media/videos/
-```
-
-Recommended file names:
-
-```text
-media/videos/demo-cycle.mp4
-media/videos/operator-flow.mp4
-```
-
-For GitHub, videos should be short and compressed. Large videos can be published through GitHub Releases or linked from an external demo page.
 
 ## Confidentiality Note
 
