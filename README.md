@@ -43,38 +43,38 @@ Screenshots and short demo videos can be added later without exposing source cod
 
 Put image files here:
 
-``text
+```text
 media/screenshots/
-``
+```
 
 Recommended names:
 
-``text
+```text
 media/screenshots/main-dashboard.png
 media/screenshots/result-screen.png
 media/screenshots/settings-screen.png
-``
+```
 
 After adding screenshots, replace this section with Markdown image links, for example:
 
-``md
+```md
 ![Main dashboard](media/screenshots/main-dashboard.png)
-``
+```
 
 ### Videos
 
 Put short recordings here:
 
-``text
+```text
 media/videos/
-``
+```
 
 Recommended names:
 
-``text
+```text
 media/videos/demo-cycle.mp4
 media/videos/operator-flow.mp4
-``
+```
 
 For GitHub, keep videos short and compressed. If a file is large, upload it through GitHub Releases or link an external demo.
 
