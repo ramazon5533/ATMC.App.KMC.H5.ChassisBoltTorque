@@ -1,0 +1,40 @@
+# This repository is prepared as a public portfolio/documentation repository.
+# Source code and Visual Studio files are intentionally not published.
+*
+
+# Public documentation
+!README.md
+!.gitignore
+!docs/
+!docs/**
+!media/
+!media/**
+!.github/
+!.github/**
+
+# Extra safety: never publish source/build/private files
+*.sln
+*.cs
+*.csproj
+*.vb
+*.fs
+*.config
+*.resx
+*.settings
+*.manifest
+*.dll
+*.exe
+*.pdb
+*.cache
+*.user
+*.suo
+.env
+.env.*
+bin/
+obj/
+.vs/
+packages/
+Debug/
+Release/
+x64/
+x86/
