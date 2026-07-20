@@ -1,83 +1,85 @@
-# ATMC.App.KMC.H5.ChassisBoltTorque
+# Chassis Bolt Torque Monitoring
 
-Chassis bolt torque jarayonini monitoring qilish va sifat nazorati uchun Windows desktop ilovasi.
+A Windows desktop application for monitoring chassis bolt torque operations and quality-control results.
 
 ## Overview
 
-This repository is a public portfolio page for the **ChassisBoltTorque** project. The production source code is intentionally not included because the application belongs to an industrial automation environment.
+This repository presents **ATMC.App.KMC.H5.ChassisBoltTorque** as a public portfolio project. The production source code is intentionally not included because the application belongs to an industrial automation environment.
 
-## What the application does
+## Project Purpose
 
-Chassis bolt torque bosqichida o'lchov va stansiya natijalarini yig'ib, me'yorga mosligini tekshiradi.
+The application collects station and measurement results during the chassis bolt torque process, evaluates whether the operation meets configured limits, and shows the result to the operator.
 
-## Main features
+## Key Features
 
-- Torque nazorat jarayoni uchun operator interfeysi
-- PLC/robot stansiyasi bilan integratsiya
-- Sifat natijalarini OK/NG formatida baholash
-- Result log va DB yozuvlari uchun strukturalangan natija
+- Operator interface for torque process monitoring
+- PLC/robot station integration
+- Quality result evaluation in OK/NG format
+- Structured result flow for traceability and reporting
 
-## How it works
+## Workflow
 
-1. The operator starts the Windows desktop application at the station.
-2. The application loads station/model settings and waits for the production cycle.
-3. PLC/robot/vision-related signals and scan results are collected during the cycle.
+1. The operator starts the Windows desktop application at the production station.
+2. The application loads station and model settings for the current operation.
+3. PLC, robot, sensor, and vision-related results are collected during the production cycle.
 4. Registration or measurement results are evaluated against configured tolerances.
-5. The application shows OK/NG status on the dashboard and prepares result data for logs/database storage.
+5. The dashboard shows station status and the final OK/NG result.
+6. Structured result data is prepared for logs, database records, and quality traceability.
 
-## Technologies and methods used
+## Technologies and Methods
 
 - C# and .NET Framework 4.8
-- Windows Forms desktop UI
-- Industrial PLC communication layer
-- Robot/automation integration
-- Vision/3D registration result processing
-- Result logging and database-oriented save flow
-- Operator dashboard for production-line monitoring
+- Windows Forms desktop interface
+- Industrial PLC communication
+- Robot and automation-system integration
+- Vision and 3D registration result processing
+- Production result logging
+- Database-oriented quality-control records
+- Operator dashboard design for manufacturing environments
 
-## Media
+## Media Placeholders
 
 Screenshots and short demo videos can be added later without exposing source code.
 
 ### Screenshots
 
-Put image files here:
+Place screenshots in:
 
-```text
+`	ext
 media/screenshots/
-```
+`
 
-Recommended names:
+Recommended file names:
 
-```text
+`	ext
 media/screenshots/main-dashboard.png
 media/screenshots/result-screen.png
 media/screenshots/settings-screen.png
-```
+`
 
-After adding screenshots, replace this section with Markdown image links, for example:
+After adding screenshots, you can display them in this README like this:
 
-```md
+`md
 ![Main dashboard](media/screenshots/main-dashboard.png)
-```
+`
 
-### Videos
+### Demo Videos
 
-Put short recordings here:
+Place short screen recordings in:
 
-```text
+`	ext
 media/videos/
-```
+`
 
-Recommended names:
+Recommended file names:
 
-```text
+`	ext
 media/videos/demo-cycle.mp4
 media/videos/operator-flow.mp4
-```
+`
 
-For GitHub, keep videos short and compressed. If a file is large, upload it through GitHub Releases or link an external demo.
+For GitHub, videos should be short and compressed. Large videos can be published through GitHub Releases or linked from an external demo page.
 
-## Repository note
+## Confidentiality Note
 
-Only documentation and media placeholders are published in this repository. Visual Studio solution files, source code, configuration files, binaries, and build outputs are excluded on purpose.
+This repository is documentation-focused. Visual Studio solution files, source code, configuration files, binaries, and build outputs are excluded intentionally. Screenshots and videos should be reviewed before upload so that no private factory data, customer data, IP addresses, credentials, or internal settings are visible.
